@@ -31,7 +31,7 @@ THE SOFTWARE.
     <f:entry field="unit" title="${%Unit}">
         <f:select/>
     </f:entry>
-    <f:entry field="activity" title="${%Timeout after inactivity}">
-        <f:checkbox/>
+    <f:entry field="activity">
+        <f:checkbox title="${%Timeout after inactivity}"/>
     </f:entry>
 </j:jelly>
